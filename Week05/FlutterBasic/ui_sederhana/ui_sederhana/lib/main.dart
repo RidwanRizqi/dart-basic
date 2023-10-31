@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: List.generate(5, (index) {
                   return Container(
-                    width: 75.0,
+                    width: 70.0,
                     height: 200.0,
                     color: Colors.grey,
                     margin: const EdgeInsets.all(1.0),
@@ -142,7 +142,7 @@ List<String> namaPesepakbola = [
 
 String _getAthleteImageURL(int index) {
   List<String> imageUrls = [
-    'https://static.republika.co.id/uploads/images/headline_slide/lionel-messi-dari-argentina-menyentuh-trofi-piala-dunia_221219200502-521.jpg',
+    'https://cdns.klimg.com/bola.net/library/upload/21/2022/12/645x430/messi_bd24aa9.jpg',
     'https://cdns.klimg.com/bola.net/library/upload/21/2023/09/645x430/cristiano-ronaldo-al_4c2b6d2.jpg',
     'https://asset-2.tstatic.net/jateng/foto/bank/images/sultan-psg-tidak-mata-duitan-tolak-mentah-mentah-mahar-real-madrid-untuk-meminang-kylian-mbappe.jpg',
     'https://cdn.antaranews.com/cache/1200x800/2023/08/16/000_33R84RB.jpg',
